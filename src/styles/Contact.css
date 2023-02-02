@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+.contactuspng {
+  width: 1000px;
+  height: 550px;
+  margin: 1rem 0 0 580px;
+  -moz-box-shadow: 10px 10px 5px rgb(80, 78, 78);
+  -webkit-box-shadow: 10px 10px 5px rgb(179, 179, 179);
+  box-shadow: 10px 10px 5px rgb(155, 147, 147);
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  perspective: 25px;
+}
+.leftnav {
+  display: grid;
+  grid-template-columns: 200px;
+  border-radius: 32px;
+  padding: 1em;
+  background: linear-gradient(
+    90deg,
+    rgba(48, 90, 108, 1) 0%,
+    rgba(31, 126, 168, 1) 100%,
+    rgba(217, 217, 217, 1) 100%
+  );
+  margin: -36rem auto 0 70px;
+  max-width: 600px;
+  width: 450px;
+  height: 550px;
+  -moz-box-shadow: 10px 10px 5px rgb(80, 78, 78);
+  -webkit-box-shadow: 10px 10px 5px rgb(179, 179, 179);
+  box-shadow: 10px 10px 5px rgb(155, 147, 147);
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+input {
+  background: rgb(206, 205, 205);
+  border: 1px solid #9c9c9c;
+  text-align: left;
+  border-radius: 20px;
+  height: 20px;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+  width: 400px;
+}
+label {
+  color: white;
+}
+.wtspbttn button {
+  background-image: linear-gradient(-180deg, #37aee2 0%, #1e96c8 100%);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #eeeeee;
+  font-size: 16px;
+  border: 0;
+  cursor: pointer;
+  margin: -5rem 0 0 240px;
+  width: 150px;
+  height: 40px;
+}
+.wtspbttn button:hover {
+  background-image: linear-gradient(-180deg, #1d95c9 0%, #17759c 100%);
+}
+input:focus {
+  outline: 2px solid gold;
+}
+input:invalid {
+  background-color: rgb(204, 204, 202);
+}
+
+.messagewtsp {
+  width: 250px;
+  height: 300px;
+}
+.wtsinmput {
+  width: 400px;
+  height: 200px;
+  text-align: left;
+  vertical-align: bottom;
+}
+.rightnav {
+  width: 250px;
+  height: 570px;
+  margin: -35rem 0 0 1600px;
+  color: white;
+}
+
+.callus,
+.chatus,
+.visitus {
+  -moz-box-shadow: 10px 10px 5px rgb(80, 78, 78);
+  -webkit-box-shadow: 10px 10px 5px rgb(179, 179, 179);
+  box-shadow: 10px 10px 5px rgb(155, 147, 147);
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  background: linear-gradient(
+    90deg,
+    rgb(0, 179, 255) 0%,
+    rgba(31, 126, 168, 1) 100%,
+    rgba(217, 217, 217, 1) 100%
+  );
+
+}
+.callus h1,h5,
+.chatus h1,h5,
+.visitus h1,h5{
+padding-bottom: 10px;
+}
+.callus h1,
+.chatus h1,
+.visitus h1 {
+  color: rgb(255, 255, 0);
+  margin:20px 0 0 10px;
+
+  width: auto;
+}
+.callus h5,
+.chatus h5,
+.visitus h5 {
+  color: rgb(255, 255, 255);
+  text-align:center;
+
+
+
+}
+.callus img,
+.chatus img,
+.visitus img {
+  display: -webkit-box;
+
+  border-radius: 30px;
+}
+.callo,.visito,.chato{
+  background-color: #17759c;
+  border-radius:20px;
+}
+/* }
+
+
+
+
+.messagewtsp {
+  width: 250px;
+  height: 300px;
+}
+
+@media (min-width: 400px) {
+  .rightconactbox {
+    grid-gap: 16px;
+  }
+  label {
+    text-align: right;
+    grid-column: 1 / 3;
+  }
+  input[type="checkbox"] {
+    grid-column: 3 / 3;
+    justify-self: start;
+    margin: 0;
+  }
+  input,
+  button {
+    grid-column: 3 / 4;
+  }
+  textarea + label {
+    align-self: start;
+  }
+} */

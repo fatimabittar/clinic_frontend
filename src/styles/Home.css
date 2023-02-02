@@ -1,0 +1,22 @@
+.home-first{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 80px;
+}
+
+h1.bigger-text{
+    font-size: 56px;
+}
+
+p.gray{
+    font-size: 30px;
+}
+
+.two-buttons{
+    display: flex;
+    justify-content:space-around;
+    /* padding-left: 200px; */
+
+}
