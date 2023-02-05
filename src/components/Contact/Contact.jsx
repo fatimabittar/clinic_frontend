@@ -54,7 +54,7 @@ export const Contact = () => {
                 </div>
 
                 <div class="col">
-                  <div class="form-group">
+                  <div class="form-group-message">
                     {/* <label>Message</label> */}
                     <textarea placeholder="Enter your message"></textarea>
                   </div>

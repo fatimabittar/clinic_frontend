@@ -4,9 +4,11 @@ import insta from "../../images/instagram.png";
 import faceb from "../../images/facebook.png";
 import twit from "../../images/twitter.png";
 import yout from "../../images/youtube.png";
+import { Whatsi } from "../whatsapp/whatsapp";
 export const Footer = () => {
   return (
     <footer className="footerpage">
+              <Whatsup />
       <div class="main">
         <div class="logo row">
           <div class="footer-header">
@@ -29,7 +31,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div class="office row">
+        <div class="office-row">
           <div class="footer-header">
             <h3>Office</h3>
           </div>
@@ -74,7 +76,7 @@ export const Footer = () => {
 
         <div class="newsletter row">
           <div class="footer-header">
-            <h3>Our Beirut Branch</h3>
+            <h3 className="branchb">Our Beirut Branch</h3>
           </div>
 
           <div className="Mapi">

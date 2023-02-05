@@ -11,9 +11,10 @@ header {
   left: 0;
   z-index: 100000;
   background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.035), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-header ul {
+.nav-closed {
   position: relative;
   list-style-type: none;
   display: flex;
@@ -27,39 +28,104 @@ header a {
   padding: 16px 28px;
 }
 
-header li,
+header a,
+a:visited,
 a:hover {
-  color: rgb(31, 76, 199);
+  color: inherit;
 }
 
-header a:active,
+header a:active {
+  color: #516eff;
+}
+
+header.animate :hover {
+  border: 1px solid rgb(210, 210, 210);
+  background-color: rgb(239, 253, 253);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23),
+    0 0 5px #aaa inset;
+  border-radius: 30px;
+}
+
 a:visited.current {
-
-
- color: rgb(0, 183, 255);
+  color: gray;
+  border: 1px solid rgb(210, 210, 210);
+  background-color: rgb(239, 253, 253);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23),
+    0 0 5px #aaa inset;
+  border-radius: 30px;
 }
 
 .logoheader {
   width: 150px;
   position: relative;
 }
-.logoheader:hover {
+
+/* .logoheader:hover {
   width: 160px;
   position: relative;
+} */
+
+.left {
+  margin-left: 35px;
 }
-hr1 {
-  border-top: 1px solid rgb(0, 0, 0);
-  width: 1700px; /* set the height */
-  position: absolute; /* position the line */
-  left: 110px;
-  right: 110px;
-  top: 110px; /* set the left position */
-  /* move the line to the left */
+
+header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8 rem;
 }
-header li:hover {
-  border:1px solid rgb(210, 210, 210);
-  background-color: rgb(239, 253, 253);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23),
-    0 0 5px #aaa inset;
-  border-radius: 30px;
+
+@media only screen and (max-width: 1024px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+  .nav-open {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    height: 60vh;
+    width: 100vw;
+    align-items: center;
+    color: #ffffff;
+    justify-content:space-evenly;
+    gap: 1.5rem;
+    background-color: #516eff;
+    transition: 1s;
+    transform: translateY(0vh);
+    flex-direction: column;
+    align-self: center;
+    padding: 0;
+
+  }
+  .nav-open li{
+    list-style-type: none;
+    transition: 1s;
+  }
+  .left{
+    display: none;
+  }
+  .nav-closed li{
+    transition: 1s;
+    display: none;
+  }
+  header {
+    padding-left: 0;
+    padding-right: 50px;
+    top: -3px;
+  }
+  .logoheader{
+    width: 100px;
+  }
+  
+  /* header .resposive-nav{
+    transform: none;
+    } */
 }
