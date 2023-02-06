@@ -4,11 +4,11 @@ import insta from "../../images/instagram.png";
 import faceb from "../../images/facebook.png";
 import twit from "../../images/twitter.png";
 import yout from "../../images/youtube.png";
-import { Whatsi } from "../whatsapp/whatsapp";
+import { Whatsup } from "../whatsapp/whatsapp";
 export const Footer = () => {
   return (
     <footer className="footerpage">
-              <Whatsup />
+      <Whatsup />
       <div class="main">
         <div class="logo row">
           <div class="footer-header">
@@ -88,9 +88,7 @@ export const Footer = () => {
               loading="lazy"
             ></iframe>
           </div>
-        
         </div>
-    
       </div>
     </footer>
   );

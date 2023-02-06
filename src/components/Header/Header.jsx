@@ -42,9 +42,12 @@ export const Header = () => {
         <li className="left">
           <button className="primary-button">Appointment</button>
         </li>
-      <button onClick={() => setOpenMenu(!openMenu)} className="nav-btn nav-close-btn">
-        {openMenu ? <FaTimes />: <FaBars />}
-      </button>
+        <button
+          onClick={() => setOpenMenu(!openMenu)}
+          className="nav-btn nav-close-btn"
+        >
+          {openMenu ? <FaTimes /> : <FaBars />}
+        </button>
       </ul>
     </header>
   );
