@@ -43,9 +43,10 @@
   gap: 20px;
 }
 
-.office a {
+.office-des a {
   text-decoration: none;
-  color: #98a8f8;
+  color: #ffffff;
+  margin-right: 20px;
 }
 .office a:hover {
   color: #fff;
@@ -85,7 +86,7 @@
 }
 
 .link-des a:hover {
-  color: #fb2576;
+  color: #ffffff;
   transition: linear 0.3s;
 }
 
@@ -177,17 +178,17 @@ hr {
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 1024) {
+@media only screen and (max-width: 1024px) {
   .footerpage {
     color: #fff;
     background-image: linear-gradient(
       90deg,
-      rgba(0, 55, 255, 0.8) 100%,
-      #092c7f 0%
+      #516EFF 100%,
+      #516EFF 0%
     );
     position: relative;
     width: 100%;
-    height: 400px;
+    height: auto;
       font-size: 0.8rem;
   }
   .office-row{
@@ -196,6 +197,7 @@ margin-top: -10px;
   .logo-des{
     margin-top:-80px;
     width:100px;
+    margin-left: 20%;
   }
 .btn-know {
 padding: 0px;
@@ -203,7 +205,8 @@ padding: 0px;
   .link-des{
 margin-top: -40px;
 margin-left: -350px;
-  }
+  
+}
   .footer-header h2{
     margin-top:200px;
     margin-left: -300px;
@@ -225,4 +228,13 @@ margin-left: -350px;
     margin-top: -90px;
 
   }
+  
+.link-des .icomedia{
+  width:50px;
+  margin:4px 0 0px 40px;
+}
+.link-des .icomedia:hover{
+  width:50px;
+  margin:4px 0 0px 40px;
+}
 }
