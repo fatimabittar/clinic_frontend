@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/Services.css";
-import { Whatsup }from "../whatsapp/whatsapp";
+// import { Whatsup }from "../whatsapp/whatsapp";
 import { Header } from "../Header/Header";
 import { Footer } from "../Footer/Footer";
 import kidlogo from "../../images/kid.png";
@@ -14,8 +14,6 @@ export const Services = () => {
     (
       <div>
         <section className="Services-sec1">
-          <Whatsup />,
-
           <div className="service-div1">
             <div className="teeth-service">
               <h1>

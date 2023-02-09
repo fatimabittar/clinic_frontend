@@ -5,6 +5,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useLogout } from "../../hooks/useLogout";
 import { useAuthContext } from "../../hooks/useAuthContext";
 import "../../styles/Header.css";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 export const Header = () => {
   const path = window.location.pathname;
