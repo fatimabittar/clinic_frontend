@@ -1,0 +1,108 @@
+.review-review {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.comp-review {
+  display: grid;
+  grid-template:
+    "a b c" auto
+    "d e f" auto;
+  row-gap: 20px;
+  column-gap: 40px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.reviews-page {
+  background-color: #516eff;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Hone_Reviews {
+  background-color: white;
+  text-align: center;
+}
+
+.Recent_Blue {
+  color: #516eff;
+  font-weight: bolder;
+}
+
+.Big_Font_Reviews {
+  font-size: 35px;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: #f8fafc;
+  padding: 20px 20px;
+  border: 1px solid rgba(82, 82, 91, 0.1);
+  border-radius: 16px;
+  font-size: 20px;
+  width: 20vw;
+  height: 200px;
+}
+
+.review-content {
+  flex: 1;
+}
+
+.review-logo {
+  width: 7vw;
+  height: 100px;
+}
+
+.review-name {
+  height: 30px;
+}
+
+.review-message {
+  overflow: hidden;
+  color: #777777;
+}
+
+#review-4 {
+  height: 250px;
+}
+
+.reviews-title h1 {
+  text-align: center;
+}
+
+.Reviews_Header_img{
+  height: 30vh;
+  width: auto;
+}
+
+.reviews-page button{
+ margin: auto;
+ margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .Reviews_Header_img, .reviews-page button{
+    display: none;
+  }
+  .comp-review{
+    display: flex;
+    flex-direction: column;
+  }
+  .review-card {
+    width: 80vw;
+    align-self: center;
+    margin: 25px 25px;
+  }
+
+  .review-logo {
+    width: 30vw;
+  }
+
+}

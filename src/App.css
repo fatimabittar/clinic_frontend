@@ -1,30 +1,60 @@
-.App{
-  min-height: 100vh; margin:0;
-  display:flex; flex-direction:column;
+.App {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
   flex: 1;
 }
 
-.button {
-  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+.primary-button {
+  border: 1px solid #516eff;
   border-radius: 8px;
+  background-color: #516eff;
+  color: white;
   box-sizing: border-box;
-  color: #000000;
   font-size: 16px;
   justify-content: center;
-  border: 0;
+  padding: 16px 28px;
   cursor: pointer;
 }
 
-.button:hover {
-  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
-  
+.primary-button:hover {
+  background-color: transparent;
+  color: #516eff;
 }
 
-@media (min-width: 768px) {
+.secondary-button {
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #516eff;
+  box-sizing: border-box;
+  color: #516eff;
+  font-size: 16px;
+  justify-content: center;
+  padding: 16px 28px;
+  cursor: pointer;
+}
+
+.secondary-button:hover {
+  border: 1px solid #516eff;
+  background-color: #516eff;
+  border-radius: 8px;
+  color: white;
+}
+
+.yellow {
+  color: #FFD700;
+}
+
+.gray {
+  color: #777777;
+}
+
+ /* @media (min-width: 768px) {
   .button {
     padding: 16px 32px;
   }
-}
+}  */

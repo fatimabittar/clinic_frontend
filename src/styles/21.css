@@ -1,0 +1,364 @@
+.about-page {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+}
+
+.DentistryY {
+  color: #fedc2a;
+}
+
+@media (min-width: 1024px) {
+  .H1YY {
+    position: absolute;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    padding-top: 4%;
+    padding-left: 8%;
+  }
+
+  .PY {
+    position: absolute;
+    width: 450px;
+    height: 121px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    padding-top: 18%;
+    padding-left: 8%;
+  }
+
+  .imgY {
+    position: absolute;
+    width: 680.84px;
+    height: 298.76px;
+    /* right: 204.88px; */
+    /* top: 400.58px;  */
+    /* padding-right: 80%; */
+    padding-left: 45%;
+    padding-top: 15%;
+    z-index: -4;
+  }
+
+  .imgRy {
+    position: absolute;
+    width: 335px;
+    height: 319px;
+    padding-left: 75%;
+    padding-top: 6%;
+  }
+
+  .pBY {
+    padding-top: 29.8%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    padding-left: 45%;
+  }
+
+  .DoctorY {
+    color: #fedc2a;
+  }
+
+  .Drmahdi {
+    width: 195px;
+    height: 219px;
+    left: 230px;
+    top: 926px;
+  }
+
+  .Drusef {
+    width: 195px;
+    height: 219px;
+    left: 517px;
+    top: 926px;
+  }
+
+  .Drsarah {
+    width: 100%;
+    height: 219px;
+    left: 805px;
+    top: 926px;
+  }
+
+  .Drfatimaa {
+    padding-left: 20%;
+  }
+}
+
+.imagesY {
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonA {
+  display: flex;
+  background-image: white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #516eff;
+  font-size: 16px;
+  padding: 16px 28px;
+  border: solid 1px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.ButtonAY {
+  padding-right: 100%;
+  height: 100vh;
+  width: 100vh;
+}
+
+.pdrname {
+  width: 248px;
+  height: 34px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.Harvard {
+  text-align: center;
+  width: 248px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
+}
+
+.center_text {
+  text-align: center;
+}
+
+.Seemore {
+  background-color: #1e96c8;
+  color: white;
+  cursor: pointer;
+  width: 163px;
+  height: 56px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+  transition: 0.2s;
+  top: 80%;
+}
+.Seemore:hover {
+  background-color: rgb(251, 242, 139);
+  color: black;
+  border: #fedc2a solid 2px;
+  scale: 1.05;
+  font-size: 19px;
+}
+
+.Seemoree {
+  transition: 0.3s;
+}
+.Seemoree:hover {
+  color: black;
+  background-color: rgb(251, 242, 139);
+  border: #fedc2a solid 2px;
+  scale: 1.05;
+}
+
+@media (min-width: 1024px) {
+  .sida {
+    position: absolute;
+    padding-top: 27.5%;
+    margin-left: 15%;
+  }
+}
+
+@media (max-width: 376px) {
+  .about-page {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+  }
+
+  .DentistryY {
+    color: #fedc2a;
+  }
+
+  .H1YY {
+    position: absolute;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 4%;
+    padding-left: 8%;
+  }
+
+  .PY {
+    position: absolute;
+    width: 450px;
+    height: 121px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 18%;
+    padding-left: 8%;
+  }
+
+  .imgY {
+    position: absolute;
+    width: 680.84px;
+    height: 298.76px;
+    padding-left: 45%;
+    padding-top: 15%;
+    z-index: -4;
+  }
+
+  .imgRy {
+    position: absolute;
+    width: 335px;
+    height: 319px;
+    padding-left: 75%;
+    padding-top: 6%;
+  }
+
+  .pBY {
+    padding-top: 29.8%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 45%;
+  }
+
+  .DoctorY {
+    color: #fedc2a;
+  }
+
+  .Drmahdi {
+    width: 195px;
+    height: 219px;
+    left: 230px;
+    top: 926px;
+  }
+
+  .Drusef {
+    width: 195px;
+    height: 219px;
+    left: 517px;
+    top: 926px;
+  }
+
+  .Drsarah {
+    width: 100%;
+    height: 219px;
+    left: 805px;
+    top: 926px;
+  }
+
+  .Drfatimaa {
+    padding-left: 20%;
+  }
+
+  .imagesY {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .buttonA {
+    display: flex;
+    background-image: white;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #516eff;
+    font-size: 16px;
+    padding: 16px 28px;
+    border: solid 1px;
+    cursor: pointer;
+    margin: auto;
+  }
+
+  .ButtonAY {
+    padding-right: 100%;
+    height: 100vh;
+    width: 100vh;
+  }
+
+  .pdrname {
+    width: 248px;
+    height: 34px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .Harvard {
+    text-align: center;
+    width: 248px;
+    height: 24px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+  }
+
+  .center_text {
+    text-align: center;
+  }
+
+  .Seemore {
+    background-color: #1e96c8;
+    color: white;
+    cursor: pointer;
+    width: 163px;
+    height: 56px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    transition: 0.2s;
+    top: 80%;
+  }
+  .Seemore:hover {
+    background-color: rgb(251, 242, 139);
+    color: black;
+    border: #fedc2a solid 2px;
+    scale: 1.05;
+    font-size: 19px;
+  }
+
+  .Seemoree {
+    transition: 0.3s;
+  }
+  .Seemoree:hover {
+    color: black;
+    background-color: rgb(251, 242, 139);
+    border: #fedc2a solid 2px;
+    scale: 1.05;
+  }
+
+  .sida {
+    position: absolute;
+    padding-top: 27.5%;
+    margin-left: 15%;
+  }
+}

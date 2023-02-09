@@ -1,0 +1,17 @@
+.See_More_Review {
+  text-align: center;
+  padding-left: 16px;
+}
+
+.Button_Reviewss {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  z-index: 2626;
+}
+
+.button_app {
+  margin: auto;
+  padding: auto;
+  /* background-color: black; */
+}
