@@ -45,7 +45,32 @@ export const Services = () => {
             </h5>
           </div>
           <div className="expanding-dashboard">
-            <h1>hj<br />dfhjhdsj<br /><br /><br /><br /><br />hfkjldshfksddskhfsljfdhlkfdkko</h1>
+          <div className="rightnav">
+            <div className="chatus">
+              <img src={chatus} alt="chatus" className="chatuspng"></img>
+              <div className="chato">
+                <h1>Chat with us</h1>
+                <h5>We are available 24/7 feel free to send a message</h5>
+              </div>
+            </div>
+            <div className="callus">
+              <img src={callus} alt="callus" className="calluspng"></img>
+              <div className="callo">
+                <h1>Call Us</h1>
+                <h5>
+                  don't waste time , feel free to call us our doctors ready for
+                  you{" "}
+                </h5>
+              </div>
+            </div>
+            <div className="visitus">
+              <img src={visitus} alt="visitus" className="visituspng"></img>
+              <div className="visito">
+                <h1>Visit us</h1>
+                <h5>Our location is in beirut - Downtown near to azarieh .</h5>
+              </div>
+            </div>
+          </div>
           </div>
         </section>
         

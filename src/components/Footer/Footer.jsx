@@ -87,9 +87,7 @@ export const Footer = () => {
               loading="lazy"
             ></iframe>
           </div>
-        
         </div>
-    
       </div>
     </footer>
   );
