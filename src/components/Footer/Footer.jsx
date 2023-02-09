@@ -13,7 +13,6 @@ export const Footer = () => {
         <div class="logo row">
           <div class="footer-header">
             <img
-              // src={twit}
               class="Debtal-Solution"
               alt=""
             />
