@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/clinic_frontend/static/css/main.d700c43b.css",
+    "main.js": "/clinic_frontend/static/js/main.1bad4662.js",
+    "static/js/787.22edae46.chunk.js": "/clinic_frontend/static/js/787.22edae46.chunk.js",
+    "static/media/ReviewsHeader.png": "/clinic_frontend/static/media/ReviewsHeader.a36af76b886bc6a8d6d7.png",
+    "static/media/who.png": "/clinic_frontend/static/media/who.97dc0552906e0038b658.png",
+    "static/media/kid.png": "/clinic_frontend/static/media/kid.5428ffd4d77439fd88b4.png",
+    "static/media/thinkdr.png": "/clinic_frontend/static/media/thinkdr.b4836242c08f0cd520d7.png",
+    "static/media/logo.png": "/clinic_frontend/static/media/logo.4c6ef18f8f8c0d978299.png",
+    "static/media/Drmahdi.png": "/clinic_frontend/static/media/Drmahdi.7edf041c3b8f1f4dbb18.png",
+    "static/media/Drusef.png": "/clinic_frontend/static/media/Drusef.b486dc6baa8582f33ea7.png",
+    "static/media/holdDR.png": "/clinic_frontend/static/media/holdDR.9590fde5bbd0069ed12d.png",
+    "static/media/Drfatima.png": "/clinic_frontend/static/media/Drfatima.bd33a9f23e2edda70e48.png",
+    "static/media/Drsarah.png": "/clinic_frontend/static/media/Drsarah.fcf4057e1105c38a97c9.png",
+    "static/media/Group_1.png": "/clinic_frontend/static/media/Group_1.83533e27ba19f52a4aee.png",
+    "static/media/whatsappwidget.png": "/clinic_frontend/static/media/whatsappwidget.71e47b828d15e544a562.png",
+    "static/media/youtube.png": "/clinic_frontend/static/media/youtube.622241db5c0a427a846d.png",
+    "index.html": "/clinic_frontend/index.html",
+    "main.d700c43b.css.map": "/clinic_frontend/static/css/main.d700c43b.css.map",
+    "main.1bad4662.js.map": "/clinic_frontend/static/js/main.1bad4662.js.map",
+    "787.22edae46.chunk.js.map": "/clinic_frontend/static/js/787.22edae46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d700c43b.css",
+    "static/js/main.1bad4662.js"
+  ]
+}
