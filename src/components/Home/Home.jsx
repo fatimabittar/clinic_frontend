@@ -13,6 +13,7 @@ import { BorderedText } from "./BorderedText";
 import { HomeReviews } from "./HomeReviews";
 import { Appointment } from "./Appointment";
 
+
 export const Home = () => {
   const nav = useNavigate();
   const { state } = useLocation();

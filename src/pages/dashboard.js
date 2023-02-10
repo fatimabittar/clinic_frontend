@@ -1,11 +1,11 @@
 
-import { useEffect }from 'react'
+import { useEffect , useState}from 'react'
 import { useReviewsContext } from '../hooks/useReviewsContext'
 import { useAuthContext } from '../hooks/useAuthContext'
 
-
 import ReviewDetails from '../components/addReviews/ReviewsDetails'
 import ReviewForm from '../components/addReviews/ReviewForm'
+
 
 const Dashboard= () => {
   const {reviews, dispatch} = useReviewsContext()
@@ -38,6 +38,8 @@ const Dashboard= () => {
         
       </div>
       <ReviewForm />
+        
+      
     </div>
   )
 }
