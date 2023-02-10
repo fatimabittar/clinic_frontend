@@ -18,18 +18,18 @@ export const Footer = () => {
         </div>
         <div className="footer-two">
           <h3>Important Links</h3>
-          <div class="link-des">
+          <div className="link-des">
             <ul>
-              <a href="www.twitter.com" class="footer-links">
+              <a href="www.twitter.com" className="footer-links">
                 <img src={twit} alt="twitter" className="icomedia"></img>
               </a>
-              <a href="www.google.com" class="footer-links">
+              <a href="www.google.com" className="footer-links">
                 <img src={yout} alt="youtube" className="icomedia"></img>
               </a>
-              <a href="www.google.com" class="footer-links">
+              <a href="www.google.com" className="footer-links">
                 <img src={insta} alt="instagram" className="icomedia"></img>
               </a>
-              <a href="www.google.com" class="footer-links">
+              <a href="www.google.com" className="footer-links">
                 <img src={faceb} alt="facebook" className="icomedia"></img>
               </a>
             </ul>

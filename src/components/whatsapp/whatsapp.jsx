@@ -45,13 +45,13 @@ export const Whatsi = () => {
   }
 
   return (
-    <div className="whats-page">
-      <div class="Opinions">
-        <div class="ewChat">
-          <div class="ewChatBox">
-            <section class="ewChatHeader">
-              <div class="ewChatAvatar">
-                <div class="John">
+    <div className="about-page">
+      <div className="Opinions">
+        <div className="ewChat">
+          <div className="ewChatBox">
+            <section className="ewChatHeader">
+              <div className="ewChatAvatar">
+                <div className="John">
                   <img className="dentalogo" src={logo} alt="cliniclogo"></img>
                 </div>
                 <div className="Profiledate">
@@ -62,7 +62,7 @@ export const Whatsi = () => {
             </section>
 
             <div>
-              <div class="ewChatBubble">
+              <div className="ewChatBubble">
                 <p>
                   Hello Dear,
                   <br />
@@ -83,8 +83,8 @@ export const Whatsi = () => {
               disabled={true}
               value="+961"
             />
-            <div class="countrydev">
-							<select class="formcnt" id="country-code">
+            <div className="countrydev">
+							<select className="formcnt" id="country-code">
 								<option value="0" selected disabled>Please Select</option>
 								<option value="44">UK (+44)</option>
                 <option value="961" selected>Lebanon (+961)</option>
@@ -314,7 +314,7 @@ export const Whatsi = () => {
             />
           </div>
           
-          <div class="ewChatInput">
+          <div className="ewChatInput">
             <input
               type="text"
               id="message"
