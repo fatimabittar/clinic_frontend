@@ -96,13 +96,6 @@ export const Contact = () => {
           </div>
         </div>
 
-       
-
-                <div className="dctorcall">
-
-                </div>
-
-      
         <div className="bordermid">
         <div className="Map">
             <iframe
