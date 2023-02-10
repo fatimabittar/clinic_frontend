@@ -47,7 +47,7 @@
   border-radius: 16px;
   font-size: 20px;
   width: 20vw;
-  height: 200px;
+  height: 220px;
 }
 
 .review-content {
@@ -94,15 +94,28 @@
   .comp-review{
     display: flex;
     flex-direction: column;
+
   }
   .review-card {
     width: 80vw;
     align-self: center;
-    margin: 25px 25px;
   }
 
   .review-logo {
     width: 30vw;
   }
+  .review-review{
+    display: flex;
+    flex-direction: column;
+  }
+   .arrow-visible{
+    height: fit-content;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 
+  .arrow-visible .arrow-icon {
+    transform: rotate(90deg);
+  }
 }

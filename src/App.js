@@ -15,9 +15,10 @@ function App() {
   const { user } = useAuthContext();
   return (
     <div className="App">
-      <main className="main">
-        <BrowserRouter>
+       <BrowserRouter>
           <Header />
+      <main className="main">
+      
             <Routes>
               <Route path="/" element={<Home />}></Route>
               <Route path="/about" element={<About />}></Route>
@@ -30,9 +31,9 @@ function App() {
                 element={user ? <Dashboard /> : <Navigate to="/login" />}
                 />
             </Routes>
-          <Footer />
-        </BrowserRouter>
       </main>
+      <Footer />
+        </BrowserRouter>
     </div>
   );
 }

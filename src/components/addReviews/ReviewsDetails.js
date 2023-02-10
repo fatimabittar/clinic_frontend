@@ -4,7 +4,6 @@ import { useState } from 'react'
 import DeleteIcon from '@mui/icons-material/Delete';
 import IconButton from '@mui/material/IconButton';
 import EditIcon from '@mui/icons-material/Edit';
-import Update from '../Update';
 
 const ReviewDetails = ({ review }) => {
   const { dispatch } = useReviewsContext()

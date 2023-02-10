@@ -227,13 +227,13 @@ export const Home = () => {
       </section>
       <section className="home-seven">
         <div>
-          <p>
+          <div>
             <h1 className="less-bigger">TESTIMONIALS</h1>
             <br />
             <h1 className="bigger-text">
               What <span className="yellow">Others</span> Are Saying
             </h1>
-          </p>
+          </div>
         </div>
         </section>
         <section className="Reviews">
