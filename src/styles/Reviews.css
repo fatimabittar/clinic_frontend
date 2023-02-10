@@ -99,6 +99,8 @@
   .review-card {
     width: 80vw;
     align-self: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   .review-logo {
@@ -115,7 +117,7 @@
     margin-bottom: 20px;
   }
 
-  .arrow-visible .arrow-icon {
+  .arrow-icon {
     transform: rotate(90deg);
   }
 }
