@@ -155,6 +155,7 @@ h5 {
   border: 1px solid;
   border-color: rgb(213, 220, 226) rgb(213, 220, 226) rgb(184, 194, 204);
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .card {
   width: 80%;
