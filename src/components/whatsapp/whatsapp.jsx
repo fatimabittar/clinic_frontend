@@ -45,7 +45,7 @@ export const Whatsi = () => {
   }
 
   return (
-    <div className="about-page">
+    <div className="whats-page">
       <div class="Opinions">
         <div class="ewChat">
           <div class="ewChatBox">
