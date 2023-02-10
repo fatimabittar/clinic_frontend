@@ -36,12 +36,10 @@ body{
 /* homepage */
 .dashboard {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 100px;
+  grid-template-columns: 3fr 1fr ;
+  gap: 2rem;
 }
 
-
-/* new workout form */
 label, input {
   display: block;
   
@@ -101,7 +99,7 @@ nav {
   display: flex;
   align-items: center;
 }
-nav a, nav button {
+nav button {
   margin-left: 10px;
 }
 nav button {
@@ -115,39 +113,67 @@ nav button {
   font-size: 1em;
 }
 
-/* auth forms */
- form.login, form.create{
+ form.login{
   max-width: 400px;
   margin: 40px auto;
   padding: 20px;
   background: #fff;
   border-radius: 4px;
 }
+
+form.create,form.update{
+  max-width: 20rem;
+  margin: 1rem auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2.4rem 4.8rem rgb(0 0 0 / 5%);
+}
+
 .review-details {
   background: #fff;
   border-radius: 4px;
-  margin: 20px auto;
+  margin: 1rem auto;
   padding: 20px;
   position: relative;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }
+
+.name{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+
+}
 .review-details h4 {
-  margin: 0 0 10px 0;
-  font-size: 1.2em;
+  margin: 0 0 0 0;
+  font-size: 2rem;
   color: var(--primary);
+
 }
 .review-details p {
   margin: 0;
   font-size: 0.9em;
   color: #555;
 }
-.review-details span {
-  position: absolute;
-  top: 20px;
-  right: 20px;
+.review-details .delete {
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+  margin-right: 1rem;
+}
+.review-details .edit {
   cursor: pointer;
   background: #f1f1f1;
   padding: 6px;
   border-radius: 50%;
   color: #333;
 }
+img{
+  margin-top: 1.5rem;
+  width: 8%;
+}
+
