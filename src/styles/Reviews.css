@@ -47,7 +47,7 @@
   border-radius: 16px;
   font-size: 20px;
   width: 20vw;
-  height: 200px;
+  height: 220px;
 }
 
 .review-content {
@@ -86,6 +86,9 @@
  margin-bottom: 30px;
 }
 
+.arrow-visible{
+  align-self: center;
+}
 
 @media only screen and (max-width: 1024px) {
   .Reviews_Header_img, .reviews-page button{
@@ -94,15 +97,30 @@
   .comp-review{
     display: flex;
     flex-direction: column;
+
   }
   .review-card {
     width: 80vw;
     align-self: center;
-    margin: 25px 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   .review-logo {
     width: 30vw;
   }
+  .review-review{
+    display: flex;
+    flex-direction: column;
+  }
+   .arrow-visible{
+    height: fit-content;
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 
+  .arrow-icon {
+    transform: rotate(90deg);
+  }
 }
