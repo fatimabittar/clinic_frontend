@@ -24,6 +24,18 @@
   height: 220px;
 }
 
+.office-des a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.office a:hover {
+  color: #fff;
+}
+.num {
+  font-size: 1rem;
+  font-weight: 500;
+}
 .link-des .icomedia {
   width: 50px;
   height: auto;
@@ -124,4 +136,74 @@
 }
 
 
+.Mapi iframe{
+  width:400px;
+  height:200px;
+  -moz-box-shadow: 10px 10px 5px rgb(82, 74, 74);
+  -webkit-box-shadow: 10px 10px 5px rgb(179, 179, 179);
+  box-shadow: 10px 10px 5px #2a3a8d;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footerpage {
+    color: #fff;
+    background-image: linear-gradient(
+      90deg,
+      #0d7c60 100%,
+      #516EFF 0%
+    );
+    position: relative;
+    width: 100%;
+    height: auto;
+      font-size: 0.8rem;
+  }
+  .office-row{
+margin-top: -10px;
+  }
+  .logo-des{
+    margin-top:-80px;
+    width:100px;
+    margin-left: 20%;
+  }
+.btn-know {
+padding: 0px;
+  }
+  .link-des{
+margin-top: -40px;
+margin-left: -350px;
+  
+}
+  .footer-header h2{
+    margin-top:200px;
+    margin-left: -300px;
+    width:10px;
+  }
+  .footer-header .branchb{
+    margin-left:-150px;
+    margin-top: -45px;
+    width:10px;
+  }
+  .Mapi iframe{
+    margin-left:-250px;
+    margin-top: 60px;
+    width:130px;
+    height: 100px;
+  }
+  .Mapi {
+    margin-left:90px;
+    margin-top: -90px;
+
+  }
+  
+.link-des .icomedia{
+  width:50px;
+  margin:4px 0 0px 40px;
+}
+.link-des .icomedia:hover{
+  width:50px;
+  margin:4px 0 0px 40px;
+}}
 }
