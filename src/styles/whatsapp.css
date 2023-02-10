@@ -63,9 +63,10 @@ display: flex;
 }
 
 .Opinions {
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 25px;
+    position: fixed;
+    right:80px;
+bottom: 150px;
+    z-index: 100000;
 }
 
 .ewChatHeader {
@@ -74,20 +75,21 @@ display: flex;
     border-radius: 15px 15px 0 0;
     padding: 5px;/*Green background size*/
     text-align:center;
-    display: flex;
     flex-direction: column;
     justify-content:center;
 }
 
 .ewChatHeader h2 {
     font-size: 18px;
-    margin: 3px;
+    width:200px;
+
 }
 
 .ewChatHeader p {
     font-size: 12px;
-    margin: 10px 0 0 130px;
+    margin: 10px 0 0 50px;
     width:100px;
+    text-align: right;
 }
 
 .ewChatBubble {
@@ -162,7 +164,7 @@ margin:2px 0 0 1px;
 
 .Profiledate h2{
 text-align: left;
-    width:200px;
+    width:100%;
     margin:10px 0 0 0px;
 }
 img.dentalogo{
@@ -170,17 +172,16 @@ img.dentalogo{
     height:50px;
     margin: 3px  0 0 -5px;;
 }
-.whatwidget{
+/* .whatwidget{
     bottom: 15px;
     right: 15px;
     border-radius: 50px;
 width:50px;
 height: 50px;
 margin:10% 0 0 10%;
-
 border:1px solid;
 cursor: pointer;
-}
+} */
 .whatswidget{
     position: fixed;
     bottom: 210px;
@@ -189,7 +190,21 @@ cursor: pointer;
     box-shadow: 1px 2px 5px 2px rgba(59, 139, 5, 0.3);
     transition:all 0.3s ease-out;
     width:50px;
+
 }
 .whatswidget:hover{
     width:70px;
+}
+.whatwidget{
+    position: fixed;
+    bottom: 210px;
+    right: 15px;
+border:1px solid rgb(255, 0, 0);
+
+}
+@media only screen and (max-width: 1024px) {
+    .Opinions{
+        right: 0;
+        margin-left: 20px;
+    }
 }
