@@ -1,24 +1,20 @@
 import { useState} from "react"
-import { useReviewsContext } from "../../hooks/useReviewsContext"
-import { useAuthContext } from "../../hooks/useAuthContext"
+import { useReviewsContext } from "../hooks/useReviewsContext"
+import { useAuthContext } from "../hooks/useAuthContext"
+import "../index.css"
 import axios from "axios"
 
-const ReviewForm = () => {
+
+const Update = () => {
     const { user } = useAuthContext()
     const { dispatch } = useReviewsContext()
     const [name, setName] = useState('')
     const [message, setMessage] = useState('')
     const [logo, setLogo] = useState('')
-    const [error, setError] = useState(null)
-    const[added,setAdded]=useState(null)
     
-    const handleSubmit = async (e) => {
+    const handleSave = async (e) => {
       e.preventDefault()
     
-     if (!user) {
-        setError('You must be logged in')
-        return
-     }
      const formData = new FormData();
      formData.append('name', name);
      formData.append('message', message);
@@ -26,7 +22,7 @@ const ReviewForm = () => {
     try{ 
        const response = await axios({
         url:'http://localhost:8000/reviews/add', 
-        method: 'POST',
+        method: 'PUT',
         headers: {
           'Content-Type': 'multipart/form-data',
           'Authorization': `Bearer ${user.token}`
@@ -38,25 +34,19 @@ const ReviewForm = () => {
         setName('')
         setMessage('')
         setLogo('')
-        setError(null)
-        setAdded("uploaded successfully")
-        dispatch({type: 'CREATE_REVIEW', payload: json})
+        dispatch({type: 'UPDATE_REVIEW', payload: json})
         
       }
-      else{
-        setError(json.error)
-      }
+    
     }
     catch{
        
-          setError("error")
-          setAdded(null)
     }
     
     }
     return (
-      <form className="create" onSubmit={handleSubmit}>
-        <h3>Add a New Review</h3>
+      <form className="update">
+        <h3>Update a Review</h3>
   
         <label className="label">Name:</label>
         <input 
@@ -81,11 +71,10 @@ const ReviewForm = () => {
         onChange={(e) => setLogo(e.target.files[0])}
         />
   
-        <button>Add Review</button>
-        {error && <div className="error">{error}</div>}
-        {added && <div className="valid">{added}</div>}
+        <button onClick={handleSave}>save changes</button>
       </form>
     )
   }
+ 
   
-  export default ReviewForm
+  export default Update

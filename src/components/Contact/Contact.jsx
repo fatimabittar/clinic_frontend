@@ -18,49 +18,49 @@ export const Contact = () => {
         <div className="clinic">
           <div className="middlenav"></div>
           <div className="middlectc">
-            <div class="card">
+            <div className="card">
               <h2>
                 Contact Us
                 <br />
                 we are always available for you
               </h2>
-              <div class="row">
-                <div class="col">
-                  <div class="form-group">
+              <div className="row">
+                <div className="col">
+                  <div className="form-group">
                     {/* <label>First Name</label> */}
                     <input type="text" placeholder="First Name" />
                   </div>
                 </div>
 
-                <div class="col">
-                  <div class="form-group">
+                <div className="col">
+                  <div className="form-group">
                     {/* <label>Surname</label> */}
                     <input type="text" placeholder="Surname" />
                   </div>
                 </div>
 
-                <div class="col">
-                  <div class="form-group">
+                <div className="col">
+                  <div className="form-group">
                     {/* <label>Email</label> */}
                     <input type="text" placeholder="Email" />
                   </div>
                 </div>
 
-                <div class="col">
-                  <div class="form-group">
+                <div className="col">
+                  <div className="form-group">
                     {/* <label>Phone</label> */}
                     <input type="text" placeholder="Phone Number" />
                   </div>
                 </div>
 
-                <div class="col">
-                  <div class="form-group-message">
+                <div className="col">
+                  <div className="form-group-message">
                     {/* <label>Message</label> */}
                     <textarea placeholder="Enter your message"></textarea>
                   </div>
                 </div>
 
-                <div class="col">
+                <div className="col">
                   <input type="submit" value="Submit" />
                 </div>
               </div>

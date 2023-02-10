@@ -13,6 +13,7 @@ import { BorderedText } from "./BorderedText";
 import { HomeReviews } from "./HomeReviews";
 import { Appointment } from "./Appointment";
 
+
 export const Home = () => {
   const nav = useNavigate();
   const { state } = useLocation();
@@ -226,13 +227,13 @@ export const Home = () => {
       </section>
       <section className="home-seven">
         <div>
-          <p>
+          <div>
             <h1 className="less-bigger">TESTIMONIALS</h1>
             <br />
             <h1 className="bigger-text">
               What <span className="yellow">Others</span> Are Saying
             </h1>
-          </p>
+          </div>
         </div>
         </section>
         <section className="Reviews">
