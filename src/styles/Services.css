@@ -3,7 +3,6 @@
   height: 380px;
   right: 222px;
   top: 150px;
-  border: 2px solid rgb(255, 255, 255);
   position: absolute;
 }
 .teeth-service h1 strong {
@@ -120,3 +119,62 @@ box-shadow: rgba(46, 46, 240, 0.4) 5px 5px,
   text-align: center;
  cursor: pointer;
   }
+  @media only screen and (max-width: 1024px) {
+    .fourthy{
+  margin:-70px 1520px auto  0;
+
+    }
+
+
+    .service-div2 img {
+      width: 350px;
+      height: 250px;
+      left: 22px;
+      top: 150px;
+      position: absolute;
+    }
+    .teeth-service h1 strong,.teeth-service h1 {
+  
+      font-size: 36px;
+ margin-top: 270px;
+ width: 300px;
+
+    }
+    .service-div1 h5 ,.service-div3 h5  {
+      color: #777777;
+       font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: -50px;
+      width: 300px;
+      }
+      .service-div3 h1, .service-div3 strong {
+        font-size: 30px;
+
+      }
+      .service-div3{
+        margin-left: 100px;
+      }
+      /* .service-div3::before{
+        content: "";
+        position: absolute;
+        margin-left: 20px;
+      margin-top: 120px;
+        width: 40%;
+        height: 0.1rem;
+        background-color: rgb(61, 61, 61);
+      } */
+      .Book-dev1 button {
+        margin-left: 100px;
+
+      }
+      .Book-dev1 button::before {
+        content: "";
+        position: absolute;
+        margin-left: -150px;
+      margin-top: 50px;
+        width: 70%;
+        height: 0.1rem;
+        background-color: rgb(61, 61, 61);
+      }
+     
+}

@@ -100,6 +100,7 @@ bottom: 150px;
     border-radius: 0 10px 10px 10px;
     position: relative;
     transition: opacity 1000ms;
+    color: #000000;
 }
 .wtspbtnlogo{
 width:30px;
@@ -197,8 +198,9 @@ cursor: pointer;
 }
 .whatwidget{
     position: fixed;
-    bottom: 210px;
-    right: 15px;
-border:1px solid rgb(255, 0, 0);
-
+    bottom: 220px;
+    right: 40px;
+border:1px solid rgb(255, 255, 255);
+/* display: none; */
+/* opacity: 0.5; */
 }
