@@ -7,7 +7,6 @@ import { Services } from "./components/Services/Services";
 import { Reviews } from "./components/Reviews/Reviews";
 import { Contact } from "./components/Contact/Contact";
 import { Footer } from "./components/Footer/Footer";
-import { Footer } from "./components/Footer/Footer";
 import Login from "./pages/Login";
 import Dashboard from "./pages/dashboard";
 import { useAuthContext } from "./hooks/useAuthContext";
