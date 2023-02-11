@@ -6,7 +6,6 @@ import { useLogout } from "../../hooks/useLogout";
 import { useAuthContext } from "../../hooks/useAuthContext";
 import "../../styles/Header.css";
 
-
 export const Header = () => {
   const path = window.location.pathname;
   const [openMenu, setOpenMenu] = useState(false);
@@ -122,4 +121,7 @@ export const Header = () => {
         </button>
       </ul>
     </header>
-  );}
+  );
+};
+
+

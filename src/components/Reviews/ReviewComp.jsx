@@ -50,7 +50,7 @@ export const ReviewComp = () => {
         )}
       </div>
       <button
-        className={startIndex + 4 > reviews.length ? "arrow hidden" : "arrow"}
+        className={startIndex + 4 > reviews.length ? "arrow hidden" : "arrow-visible"}
         onClick={() => setStartIndex(startIndex + 1)}
       >
         <AiOutlineArrowRight className="arrow-icon" />
