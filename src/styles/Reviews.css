@@ -26,6 +26,8 @@
 .Hone_Reviews {
   background-color: white;
   text-align: center;
+  font-size: 35px;
+  font-family: "Poppins";
 }
 
 .Recent_Blue {
@@ -34,7 +36,7 @@
 }
 
 .Big_Font_Reviews {
-  font-size: 35px;
+  font-size: 56px;
 }
 
 .review-card {
@@ -77,8 +79,11 @@
 }
 
 .Reviews_Header_img{
-  height: 30vh;
-  width: auto;
+  /* height: 30vh; */
+  /* width: auto; */
+  display: flex;
+  flex-direction: column;
+
 }
 
 .reviews-page button{
@@ -89,10 +94,28 @@
 .arrow-visible{
   align-self: center;
 }
+.primary-buttonz {
+  border: 1px solid #516eff;
+  border-radius: 8px;
+  background-color: white;
+  color: #516eff;
+  box-sizing: border-box;
+  font-size: 16px;
+  justify-content: center;
+  padding: 16px 28px;
+  cursor: pointer;
+  font-family: "Poppins";
+  /* scale: 1.5; */
+}
 
+.primary-buttonz:hover {
+  scale: 1.1;
+  
+
+}
 @media only screen and (max-width: 1024px) {
   .Reviews_Header_img, .reviews-page button{
-    display: none;
+    font-size:  30px;
   }
   .comp-review{
     display: flex;
@@ -123,4 +146,9 @@
   .arrow-icon {
     transform: rotate(90deg);
   }
+
+.Big_Font_Reviews {
+  font-size: 10px;
+  background-color: red;
+}
 }
