@@ -53,10 +53,10 @@ label, input {
   margin-top: 10px;
   margin-bottom: 20px;
   width: 100%;
-  border: 2px solid #ddd;
+  border: 2px solid #bbabab;
   border-radius: 4px;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 .input:focus {
   outline: none;

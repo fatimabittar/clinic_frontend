@@ -1,8 +1,60 @@
 
 form.login{
-     border: 1px solid ;
+     box-shadow: rgba(46, 46, 240, 0.4) 5px 5px,
+ rgba(53, 46, 240, 0.3) 10px 10px,
+  rgba(46, 59, 240, 0.2) 15px 15px,
+   rgba(46, 75, 240, 0.1) 20px 20px,
+    rgba(46, 69, 240, 0.05) 25px 25px;
+  border-radius: 20px;
      border-radius: 12px;
+     border: 1px solid ;
+     height: 100%;
 }
+.inputi{
+display: flex;
+/* position: sticky; */
+
+}
+.showhidepass{
+    margin-left: -35px;
+    margin-top: 17px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  width: 13px;
+  height: 13px;
+  border-radius:  75% 15%;
+  position: relative;
+  transform: rotate(45deg);
+}
+.showhidepass::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border: solid 3px #000;
+    border-radius: 50%;
+    left: 4px;
+    top: 4px;
+}
+.showhidepass:hover{
+    margin-left: -35px;
+    margin-top: 17px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid rgb(13, 0, 255);
+  width: 10px;
+  height: 10px;
+  border-radius:  75% 15%;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+
+
+
+
 
 @media only screen and (max-width: 1024px) {
 
@@ -11,4 +63,27 @@ form.login{
         border-radius: 12px;
         margin: 40px 8px;
    }
+   .showhidepass{
+    margin-left: -35px;
+    margin-top: 17px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  width: 13px;
+  height: 13px;
+  border-radius:  75% 15%;
+  position: relative;
+  transform: rotate(45deg);
+}
+.showhidepass::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border: solid 3px #000;
+    border-radius: 50%;
+    left: 4px;
+    top: 4px;
+}
 }

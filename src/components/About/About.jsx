@@ -15,15 +15,17 @@ const About = () => {
       <div className='about'>
         <div className='top' style={{ backgroundImage: `url(${Vector204})`}}>
           <div className='intro'>
-            <h1 className='H1YY'>Passion for <span className='DentistryY'>Dentistry</span> <br />Since 2015 </h1>
-            <div  className='PY'><p>DENTI Clinic was established in 1977, when Professor Hani Khoury returned to Lebanon from France, after finishing his specialty in gum and bone disease, also known as “Periodontics”.</p></div>
-            <span className='sida'><button className="Seemore">See More</button></span>
+            <h1 className='H1YY'>Passion for <i className='DentistryY'>Dentistry</i> <br />Since 2015 </h1>
+            <div  className='PY sia'><p>DENTI Clinic was established in 1977, when Professor Hani Khoury returned to Lebanon from France, after finishing his specialty in gum and bone disease, also known as “Periodontics”.</p></div>
+            <div className='sia'>
+            <button className="primary-button">See More</button>
+            </div>
           </div>
           <div>
             <img className='imgRy' src={Group_1} alt="imgRy" />            
           </div>
         </div>
-        <h1 className='pBY heading'>MEET OUR <span className='DoctorY'>DOCTORS</span></h1>
+        <h1 className='pBY heading'>Meet Our <span className='DoctorY'>Doctors</span></h1>
         <div className='imagesY'>
           <div className='doctor-card'>
             <span className='ButtonAY'><img className='Drmahdi' src={Drmahdi} alt='DrMahdi' /></span> 
@@ -60,7 +62,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/* <Buttonappt/> */}
     </>
   )
 }

@@ -13,7 +13,7 @@ export const Reviews = () => {
           src={ReviewsHeader}
           alt="ReviewsHeader"
         />
-        <button className="Seemore">See More</button>
+        <button className="primary-buttonz">See More</button>
       </div>
       <div className="reviews-title">
         <h2 className="Hone_Reviews">
