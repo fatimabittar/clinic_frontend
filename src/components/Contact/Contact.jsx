@@ -102,7 +102,7 @@ export const Contact = () => {
               title="map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26496.124608916696!2d35.48677272141671!3d33.88925268661702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f17215880a78f%3A0x729182bae99836b4!2sBeirut!5e0!3m2!1sen!2slb!4v1674946163797!5m2!1sen!2slb"
               style={{ border: "0" }}
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
             ></iframe>
                 </div></div>
